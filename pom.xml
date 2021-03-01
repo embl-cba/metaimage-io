@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.scijava</groupId>
+		<artifactId>pom-scijava</artifactId>
+		<version>30.0.0</version>
+	</parent>
+	<groupId>de.embl.cba</groupId>
+	<artifactId>metaimage-io</artifactId>
+	<version>1.0.0</version>
+	<name>MetaImage reader plugin for ImageJ</name>
+	<description>MetaImage reader plugin for ImageJ</description>
+	<url>https://github.com/tischi/</url>
+	<inceptionYear>2017</inceptionYear>
+	<organization>
+		<name>EMBL</name>
+		<url>https://embl.de/</url>
+	</organization>
+	<developers>
+		<developer>
+			<id>tischi</id>
+			<name>Christian Tischer</name>
+			<email>Christian.Tischer@EMBL.DE</email>
+			<url/>
+			<organization>EMBL Heidelberg</organization>
+			<organizationUrl>http://www.embl.de</organizationUrl>
+			<roles>
+				<role>microscopy</role>
+				<role>image analysis</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
+	<licenses>
+		<license>
+			<name>Simplified BSD License</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<mailingLists>
+		<mailingList>
+			<name>ImageJ Forum</name>
+			<archive>http://forum.imagej.net/</archive>
+		</mailingList>
+	</mailingLists>
+	<properties>
+		<package-name>de.embl.cba.metaimage-io</package-name>
+		<license.licenseName>bsd_2</license.licenseName>
+		<license.copyrightOwners>EMBL</license.copyrightOwners>
+		<scijava.app.directory>/Users/tischer/Desktop/Fiji/Fiji-MoBIE.app</scijava.app.directory>
+		<enforcer.skip>true</enforcer.skip>
+	</properties>
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifest>
+							<mainClass>${main-class}</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<repositories>
+		<repository>
+			<id>imagej.public</id>
+			<url>http://maven.imagej.net/content/groups/public</url>
+		</repository>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej-legacy</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>net.imagej</groupId>
+			<artifactId>imagej</artifactId>
+		</dependency>
+	</dependencies>
+</project>
