@@ -45,26 +45,12 @@
 		</mailingList>
 	</mailingLists>
 	<properties>
-		<package-name>de.embl.cba.metaimage-io</package-name>
+		<package-name>de.embl.cba.metaimage_io</package-name>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>EMBL</license.copyrightOwners>
 		<scijava.app.directory>/Users/tischer/Desktop/Fiji/Fiji-MoBIE.app</scijava.app.directory>
 		<enforcer.skip>true</enforcer.skip>
 	</properties>
-	<build>
-		<plugins>
-			<plugin>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>${main-class}</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
-			</plugin>
-		</plugins>
-	</build>
 	<repositories>
 		<repository>
 			<id>imagej.public</id>
