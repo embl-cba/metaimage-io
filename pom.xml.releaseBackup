@@ -29,8 +29,10 @@
 			<organization>EMBL Heidelberg</organization>
 			<organizationUrl>http://www.embl.de</organizationUrl>
 			<roles>
-				<role>microscopy</role>
-				<role>image analysis</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
