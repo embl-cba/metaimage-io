@@ -35,12 +35,27 @@
 			<timezone>+1</timezone>
 		</developer>
 	</developers>
+	<contributors>
+		<contributor>
+			<name>Kimberly Meechan</name>
+			<roles>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
+			</roles>
+		</contributor>
+	</contributors>
 	<licenses>
 		<license>
 			<name>Simplified BSD License</name>
 			<distribution>repo</distribution>
 		</license>
 	</licenses>
+	<issueManagement>
+		<system>GitHub</system>
+		<url>https://github.com/embl-cba/metaimage-io/issues</url>
+	</issueManagement>
 	<mailingLists>
 		<mailingList>
 			<name>ImageJ Forum</name>
@@ -56,7 +71,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/embl-cba/metaimage-io</connection>
 		<developerConnection>scm:git:git@github.com:embl-cba/metaimage-io</developerConnection>
-		<tag>HEAD</tag>
+		<tag>metaimage-io-1.0.1</tag>
 		<url>https://github.com/embl-cba/metaimage-io</url>
 	</scm>
 	<ciManagement>

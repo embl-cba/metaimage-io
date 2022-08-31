@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>de.embl.cba</groupId>
 	<artifactId>metaimage-io</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.1</version>
 	<name>MetaImage reader plugin for ImageJ</name>
 	<description>MetaImage reader plugin for ImageJ</description>
 	<url>https://github.com/tischi/</url>
@@ -29,8 +29,10 @@
 			<organization>EMBL Heidelberg</organization>
 			<organizationUrl>http://www.embl.de</organizationUrl>
 			<roles>
-				<role>microscopy</role>
-				<role>image analysis</role>
+				<role>developer</role>
+				<role>debugger</role>
+				<role>reviewer</role>
+				<role>support</role>
 			</roles>
 			<timezone>+1</timezone>
 		</developer>
