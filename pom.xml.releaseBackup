@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0   https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.scijava</groupId>
@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>de.embl.cba</groupId>
 	<artifactId>metaimage-io</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>MetaImage reader plugin for ImageJ</name>
 	<description>MetaImage reader plugin for ImageJ</description>
 	<url>https://github.com/tischi/</url>
@@ -22,7 +22,7 @@
 			<id>tischi</id>
 			<name>Christian Tischer</name>
 			<email>Christian.Tischer@EMBL.DE</email>
-			<url />
+			<url/>
 			<organization>EMBL Heidelberg</organization>
 			<organizationUrl>http://www.embl.de</organizationUrl>
 			<roles>
@@ -48,18 +48,9 @@
 		<package-name>de.embl.cba.metaimage_io</package-name>
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>EMBL</license.copyrightOwners>
-		<enforcer.skip>false</enforcer.skip>
+		<scijava.app.directory>/Users/tischer/Desktop/Fiji/Fiji-MoBIE.app</scijava.app.directory>
+		<enforcer.skip>true</enforcer.skip>
 	</properties>
-	<scm>
-		<connection>scm:git:https://github.com/embl-cba/metaimage-io</connection>
-		<developerConnection>scm:git:git@github.com:embl-cba/metaimage-io</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/embl-cba/metaimage-io</url>
-	</scm>
-	<ciManagement>
-		<system>GitHub Actions</system>
-		<url>https://github.com/embl-cba/metaimage-io/actions</url>
-	</ciManagement>
 	<repositories>
 		<repository>
 			<id>scijava.public</id>
