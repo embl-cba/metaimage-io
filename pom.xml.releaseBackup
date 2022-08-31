@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>de.embl.cba</groupId>
 	<artifactId>metaimage-io</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>MetaImage reader plugin for ImageJ</name>
 	<description>MetaImage reader plugin for ImageJ</description>
 	<url>https://github.com/tischi/</url>
@@ -61,7 +61,7 @@
 	<mailingLists>
 		<mailingList>
 			<name>ImageJ Forum</name>
-			<archive>http://forum.imagej.net/</archive>
+			<archive>https://forum.image.sc/</archive>
 		</mailingList>
 	</mailingLists>
 	<properties>
@@ -69,6 +69,9 @@
 		<license.licenseName>bsd_2</license.licenseName>
 		<license.copyrightOwners>EMBL</license.copyrightOwners>
 		<enforcer.skip>false</enforcer.skip>
+
+		<!-- NB: Deploy releases to the SciJava Maven repository. -->
+		<releaseProfiles>sign,deploy-to-scijava</releaseProfiles>
 	</properties>
 	<scm>
 		<connection>scm:git:https://github.com/embl-cba/metaimage-io</connection>
