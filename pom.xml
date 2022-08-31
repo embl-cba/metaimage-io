@@ -17,6 +17,9 @@
 		<name>EMBL</name>
 		<url>https://embl.de/</url>
 	</organization>
+
+	<!-- ../scijava-scripts/release-version.sh -skip-version-check	-->
+
 	<developers>
 		<developer>
 			<id>tischi</id>
