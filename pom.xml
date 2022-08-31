@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>de.embl.cba</groupId>
 	<artifactId>metaimage-io</artifactId>
-	<version>1.0.2-SNAPSHOT</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<name>MetaImage reader plugin for ImageJ</name>
 	<description>MetaImage reader plugin for ImageJ</description>
 	<url>https://github.com/tischi/</url>
